@@ -142,14 +142,14 @@ for (const element1 of toys1) {
 
     if (element1.sellCount > 15) {
         
-        popularToys.shift(element1.name);
-        popularToys.unshift(element1.name);
-        
+        popularToys.push(element1.name);
         
         console.log(popularToys);
-      
-     }
 
+     } else {
+
+     }
+     
 }
 
 
