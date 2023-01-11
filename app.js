@@ -77,6 +77,34 @@ for (let element in alien) {
 }
 
 
+// Iteración #5: Probando For  //// ESTA SIN HACER
+
+const placesToTravel1 = [
+
+    {id: 5,  name: 'Japan'}, 
+    {id: 11, name: 'Venecia'}, 
+    {id: 23, name: 'Murcia'}, 
+    {id: 40, name: 'Santander'}, 
+    {id: 44, name: 'Filipinas'}, 
+    {id: 59, name: 'Madagascar'}
+
+]
+
+for(i = 0; i < placesToTravel1.length; i++) {
+
+    if (placesToTravel1[i].id != 11 && placesToTravel1[i].id != 40) {
+        console.log(placesToTravel1[i].name); 
+    } else {
+
+    }
+
+}
+
+    
+    
+    
+
+    
 
 
 
