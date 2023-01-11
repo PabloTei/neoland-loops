@@ -44,3 +44,41 @@ alumns.forEach((alumns) => {
 console.log(alumns);
 
 })
+
+
+// Iteración #3: Probando For...of
+
+
+const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']
+
+for (const element of placesToTravel) {
+
+    console.log(element);
+    
+}
+
+
+// Iteración #4: Probando For...in
+
+
+const alien = {
+
+    name: 'Wormuck',
+    race: 'Cucusumusu',
+    planet: 'Eden',
+    weight: '259kg'
+
+}
+
+for (let element in alien) {
+
+    console.log(alien[element]);
+
+}
+
+
+
+
+
+
+
