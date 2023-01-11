@@ -93,11 +93,34 @@ const placesToTravel1 = [
 for(i = 0; i < placesToTravel1.length; i++) {
 
     if (placesToTravel1[i].id != 11 && placesToTravel1[i].id != 40) {
+
         console.log(placesToTravel1[i].name); 
+
     } else {
 
     }
 
+}
+
+
+// Iteración #6: Mixed For...of e includes
+
+const toys = [
+
+    {id: 5, name: 'Buzz MyYear'}, 
+    {id: 11, name: 'Action Woman'}, 
+    {id: 23, name: 'Barbie Man'}, 
+    {id: 40, name: 'El gato con Guantes'},
+    {id: 40, name: 'El gato felix'}
+
+]
+
+for (const element of toys) {
+    
+    if (element.name.includes("gato") == false) {
+        console.log(element.name);
+    }
+    
 }
 
     
